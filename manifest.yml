@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: car analytics
+  host: car-analytics
+  disk_quota: 1024M
+  services:
+  - car analytics-cloudantNoSQLDB
